@@ -19,16 +19,20 @@ header {
 }
 
 #home {
-  color: #ca4246;
+  /* color: #ca4246; */
+  color: #476098;
 }
 #ourMission {
-  color: #e16541;
+  /* color: #e16541; */
+  color: #476098;
 }
 #ourVessels {
-  color: #f18f43;
+  /* color: #f18f43; */
+  color: #476098;
 }
 #community {
-  color: #8b9862;
+  /* color: #8b9862; */
+  color: #476098;
 }
 #donations {
   color: #476098;
