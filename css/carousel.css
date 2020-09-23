@@ -43,7 +43,7 @@ header {
   font-size: 42px;
 
   /* Create the gradient. */
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
     45deg,
     #ca4246 16.666%,
     #e16541 16.666%,
@@ -54,7 +54,20 @@ header {
     #8b9862 69.666%,
     #476098 66.666%,
     #476098 83.333%,
-    #476098 80.333% /* #a7489b 83.333% */
+    #476098 80.333% 
+  ); */
+  background-image: linear-gradient(
+    45deg,
+    #476098 16.666%,
+    #476098 16.666%,
+    #8b9862 33.333%,
+    #8b9862 33.333%,
+    #faca0f 50%,
+    #faca0f 50%,
+    #f18f43 69.666%,
+    #f18f43 66.666%,
+    #e16541 83.333%,
+    #ca4246 80.333%
   );
 
   /* Set the background size and repeat properties. */
@@ -126,16 +139,16 @@ header {
 .row.welcome:hover {
   background-image: linear-gradient(
     45deg,
-    #388dd3 16.666%,
     #476098 16.666%,
-    #ca4246 33.333%,
-    #f18f43 33.333%,
-    #f18f43 50%,
-    #8b9862 50%,
-    #388dd3 69.666%,
-    #ca4246 66.666%,
+    #476098 16.666%,
+    #8b9862 33.333%,
+    #8b9862 33.333%,
+    #faca0f 50%,
+    #faca0f 50%,
+    #f18f43 69.666%,
+    #f18f43 66.666%,
     #e16541 83.333%,
-    #e16541 80.333% /* #a7489b 83.333% */
+    #ca4246 80.333%
   );
   background-size: 100%;
   background-repeat: repeat;
