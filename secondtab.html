@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link rel="icon" href="../../favicon.ico" />
+
+    <title>Carousel Template for Bootstrap</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"
+    />
+    <!-- google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font awesome icons -->
+    <script
+      src="https://kit.fontawesome.com/a51300a4d1.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <!-- Custom styles for this template -->
+    <link href="css/carousel.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="row">
+        <h2 class="gradient-text">
+          Sea of Dreams Realized Everyday thru Atristy Music & Sailing
+        </h2>
+      </header>
+
+      <!-- Carousel
+    ================================================== -->
+      <!-- <div id="myCarousel" class="carousel slide" data-ride="carousel"> -->
+      <div
+        id="myCarousel"
+        class="carousel slide"
+        data-ride="carousel"
+        data-interval="4100"
+        data-pause="hover"
+      >
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <img
+              class="first-slide"
+              src="public/carousel1.png"
+              alt="First slide"
+            />
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>Sea of Dreams</h1>
+                <p>
+                  Making dreams come true one dream at a time.<br />
+                  Serving our Veterans, Women and Men in Blue, our Keiki and
+                  Kapuna too
+                </p>
+                <p>
+                  <a class="btn btn-lg btn-primary" href="#" role="button"
+                    >Sign up today</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <img
+              class="second-slide"
+              src="public/carousel2.png"
+              alt="Second slide"
+            />
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>Another example headline.</h1>
+                <p>
+                  Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+                  Donec id elit non mi porta gravida at eget metus. Nullam id
+                  dolor id nibh ultricies vehicula ut id elit.
+                </p>
+                <p>
+                  <a class="btn btn-lg btn-primary" href="#" role="button"
+                    >Learn more</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <img
+              class="third-slide"
+              src="public/carousel3.png"
+              alt="Third slide"
+            />
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>One more for good measure.</h1>
+                <p>
+                  Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+                  Donec id elit non mi porta gravida at eget metus. Nullam id
+                  dolor id nibh ultricies vehicula ut id elit.
+                </p>
+                <p>
+                  <a class="btn btn-lg btn-primary" href="#" role="button"
+                    >Browse gallery</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a
+          class="left carousel-control"
+          href="#myCarousel"
+          role="button"
+          data-slide="prev"
+        >
+          <span
+            class="glyphicon glyphicon-chevron-left"
+            aria-hidden="true"
+          ></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="right carousel-control"
+          href="#myCarousel"
+          role="button"
+          data-slide="next"
+        >
+          <span
+            class="glyphicon glyphicon-chevron-right"
+            aria-hidden="true"
+          ></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <!-- /.carousel -->
+
+      <!-- Marketing messaging and featurettes
+    ================================================== -->
+      <!-- Wrap the rest of the page in another container to center all the content. -->
+
+      <div class="container marketing">
+        <!-- Three columns of text below the carousel -->
+
+        <div class="row">
+          <div id="tabs" class="container">
+            <div class="container">
+              <!-- <h1>Home Page</h1> -->
+              <ul class="nav nav-tabs nav-justified">
+                <li>
+                  <a href="index.html" id="home"
+                    ><i class="fas fa-anchor"></i> Home</a
+                  >
+                </li>
+
+                <li class="active">
+                  <a href="secondtab.html" id="ourMission"
+                    ><span class="glyphicon glyphicon-info-sign"></span> Our
+                    Mission</a
+                  >
+                </li>
+                <li class="dropdown">
+                  <a
+                    class="dropdown-toggle"
+                    id="ourVessels"
+                    data-toggle="dropdown"
+                    href="#"
+                  >
+                    <span class="glyphicon glyphicon-wrench"></span> Our Vessels
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a href="thirdtab.html">
+                        <span class="glyphicon glyphicon-flash"></span> Vessel
+                        1</a
+                      >
+                    </li>
+                    <li>
+                      <a href="thirdtab.html"
+                        ><span class="glyphicon glyphicon-shopping-cart"></span>
+                        Vessel 2</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="fourthtab.html" id="community"
+                    ><span class="glyphicon glyphicon-globe"></span>
+                    Community</a
+                  >
+                </li>
+                <li>
+                  <a href="fifthtab.html" id="donations"
+                    ><span class="glyphicon glyphicon-heart"></span> Dontaions
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- /.row -->
+
+        <!-- START THE FEATURETTES -->
+        <hr class="featurette-divider undertabs" />
+        <div class="row welcome">
+          <p>
+            <i class="fas fa-guitar"></i> Our Mission
+            <i class="fas fa-anchor"></i>
+          </p>
+        </div>
+        <hr class="featurette-divider lowerText" />
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">
+              This will be the first part.
+              <span class="text-muted">What should we say for title.</span>
+            </h2>
+            <p class="lead">
+              Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id
+              ligula porta felis euismod semper. Praesent commodo cursus magna,
+              vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
+              commodo.
+            </p>
+          </div>
+          <div class="col-md-5">
+            <img
+              class="featurette-image img-responsive center-block"
+              src="public/sunsetSail.png"
+              alt="Generic placeholder image"
+            />
+          </div>
+        </div>
+
+        <hr class="featurette-divider" />
+
+        <div class="row featurette">
+          <div class="col-md-7 col-md-push-5">
+            <h2 class="featurette-heading">
+              Oh yeah, it's that good.
+              <span class="text-muted">See for yourself.</span>
+            </h2>
+            <p class="lead">
+              Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id
+              ligula porta felis euismod semper. Praesent commodo cursus magna,
+              vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
+              commodo.
+            </p>
+          </div>
+          <div class="col-md-5 col-md-pull-7">
+            <img
+              class="featurette-image img-responsive center-block"
+              src="public/mountainSail.png"
+              alt="Generic placeholder image"
+            />
+          </div>
+        </div>
+
+        <hr class="featurette-divider" />
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">
+              And lastly, this one. <span class="text-muted">Checkmate.</span>
+            </h2>
+            <p class="lead">
+              Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id
+              ligula porta felis euismod semper. Praesent commodo cursus magna,
+              vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
+              commodo.
+            </p>
+          </div>
+          <div class="col-md-5">
+            <img
+              class="featurette-image img-responsive center-block"
+              src="public/learnSail.png"
+              alt="Generic placeholder image"
+            />
+          </div>
+        </div>
+
+        <hr class="featurette-divider" />
+
+        <!-- /END THE FEATURETTES -->
+
+        <!-- FOOTER -->
+        <footer>
+          <p class="pull-right"><a href="#">Back to top</a></p>
+          <p>
+            &copy;
+            <script>
+              document.write(new Date().getFullYear());
+            </script>
+            Sea of Dreams &middot; <a href="#">Privacy</a> &middot;
+            <a href="#">Terms</a>
+          </p>
+        </footer>
+      </div>
+    </div>
+    <!-- /.container -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>
+      window.jQuery ||
+        document.write(
+          '<script src="../../assets/js/vendor/jquery.min.js"><\/script>'
+        );
+    </script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="../../assets/js/vendor/holder.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
