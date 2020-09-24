@@ -13,9 +13,14 @@ header {
   justify-content: center;
   /* color: blue; */
   font-family: "Pacifico", cursive;
+  /* font-family: "Courgette", cursive; */
   /* margin-top: 50px; */
   margin-bottom: 20px;
   /* font-family: "Satisfy", cursive; */
+}
+
+span:hover {
+  transform: scale(1.1);
 }
 
 #home {
@@ -85,6 +90,7 @@ header {
 }
 
 .gradient-text:hover {
+  transform: scale(1.1);
   animation: rainbow-text-simple-animation 0.5s ease-in forwards;
 }
 
